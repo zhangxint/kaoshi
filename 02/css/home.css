@@ -1,0 +1,151 @@
+
+.appliances .jiadian{
+    height: 574px;
+    background: #f5f5f5;
+    font-size: 14px;
+    color:#333333;
+    box-sizing: border-box;
+    position: relative;
+}
+.appliances .jiadian p>a{
+    margin-left: 30px;
+    color:#333;
+}
+.appliances .jiadian .main{
+    width: 1129px;
+    height: 574px;
+}
+.appliances .jiadian .main li{
+    width: 210px;
+    height: 270px;
+    background: #fff;
+    float: left;
+    margin-left: 14px;
+    transition: all .2s linear;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.appliances .jiadian .main li img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+.appliances .jiadian .main .Best{
+    width: 210px;
+    height: 270px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.appliances .jiadian .main .more{
+    width: 210px;
+    height: 128px;
+    
+}
+.appliances .jiadian .main .more .more_left{
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.appliances .jiadian .main .more .more_left b{
+    display: block;
+    margin-top: 5px;
+    color: #ff6700;
+}
+.appliances .jiadian .main .more .more_left:nth-of-type(1) b{
+    color: #bbbbbb;
+}
+.appliances .jiadian .main .more img{
+    width:100px;
+    height:100px;
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: -45px;
+}
+.appliances .jiadian .main .more .a2{
+    display: block;
+    height: 130px;
+}
+
+.appliances .jiadian .main li a{
+    display: block;
+    height: 270px;
+}
+.appliances .jiadian .main li:hover{
+    box-shadow: 5px 5px 50px #ccc;
+    transform: translateY(-2px);
+}
+
+.appliances .jiadian .main li .introduce{
+    position: absolute;
+    width: 210px;
+    height: 65px;
+    background: #ff6600;
+    bottom: 0px;
+    display: none;
+}
+.appliances .jiadian .main li .introduce em{
+    color: #fff;
+    font-size: 12px;
+}
+.appliances .jiadian .main li .introduce i{
+    font-size: 10px;
+    color: #ffb069;
+}
+.appliances .jiadian .main li p{
+    padding-top: 185px;;
+}
+.appliances .jiadian .main li span{
+    display: inline-block;
+    font-size: 12px;
+    color: #b0b0b0;
+    padding-bottom: 6px;
+}
+.appliances .jiadian .main li .price{
+    font-size: 14px;
+}
+.appliances .jiadian .main li:nth-of-type(4) .price{
+    margin-top: 23px;
+}
+.appliances .jiadian .main li:nth-of-type(5) .price{
+    margin-top: 23px;
+}
+.appliances .jiadian .main li .price b{
+    color: #fa6509;
+    font-size: 14px;
+}
+.appliances .jiadian .main li .price strong{
+	text-decoration: line-through;
+	color: #adadad;
+}
+
+.box{
+    position: absolute;
+    top: 0;
+    left: 76px;
+    width: 56px;
+    height: 18px;
+    background: #83c44e;
+    color: #fff;
+    font-size: 14px;
+}
+.box2{
+    position: absolute;
+    top: 0;
+    left: 76px;
+    width: 56px;
+    height: 18px;
+    background: #e53935;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+
